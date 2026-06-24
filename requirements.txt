@@ -7,6 +7,7 @@ pydantic-settings>=2.0
 # RAG & Vector DB
 langchain>=0.2
 langchain-community>=0.2
+langchain-chroma>=0.2
 chromadb>=0.5
 sentence-transformers>=2.7
 
@@ -22,9 +23,8 @@ dashscope>=1.20
 # langchain-openai>=0.1
 # openai>=1.0
 
-# Financial data fallback (optional)
-# yfinance>=0.2
-# akshare>=1.11
+# Financial data
+akshare>=1.11
 
 # Dev
 pytest>=8.0

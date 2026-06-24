@@ -45,7 +45,7 @@ class Settings(BaseSettings):
     DEDUP_TITLE_SIMILARITY_THRESHOLD: float = 0.85
 
     class Config:
-        env_file = ".env"
+        env_file = str(Path(__file__).parent / ".env")
         env_file_encoding = "utf-8"
 
 
