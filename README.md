@@ -19,6 +19,18 @@
 
 ## 快速开始
 
+### 🚀 一键初始化（推荐）
+
+```bash
+bash setup.sh
+```
+
+运行后只需输入你的 DashScope API Key，自动完成：创建 venv → 安装依赖 → 配置 Key → 重建向量库 → 启动服务。
+
+启动后打开 http://localhost:8000/docs 即可手动测试查询（可视化界面）。
+
+### 📋 分步执行
+
 ```bash
 # 1. 安装依赖
 python3 -m venv venv && source venv/bin/activate
@@ -33,6 +45,8 @@ python pipeline/runner.py --step ingest
 
 # 4. 启动 API 服务
 uvicorn serve.main:app --host 0.0.0.0 --port 8000
+
+启动后打开 http://localhost:8000/docs 即可测试查询。
 
 # 5. 测试查询
 curl -X POST http://localhost:8000/query \

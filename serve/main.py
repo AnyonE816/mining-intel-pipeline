@@ -89,6 +89,8 @@ async def query(req: QueryRequest):
     """
     自然语言查询矿业情报
 
+    🟡 下方 Responses 区域是返回格式说明，不是报错
+
     示例请求:
     ```json
     {
