@@ -1,0 +1,166 @@
+{
+  "description": "20 条 Ground Truth Q&A 用于评测 RAG 管线检索质量",
+  "created": "2026-06-23",
+  "items": [
+    {
+      "id": "gt_001",
+      "question": "近7天铜价走势如何？涨了还是跌了？",
+      "expected_answer_keywords": ["铜", "copper", "LME", "价格", "美元"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "price",
+      "date_range_days": 7
+    },
+    {
+      "id": "gt_002",
+      "question": "澳洲最新的关键矿产政策有哪些变化？",
+      "expected_answer_keywords": ["澳洲", "Australia", "DISR", "关键矿产", "critical minerals", "政策"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "policy",
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_003",
+      "question": "mining.com 最近报道了哪些关于锂矿的新闻？",
+      "expected_answer_keywords": ["lithium", "锂", "mining", "mine", "production"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "news",
+      "date_range_days": 14
+    },
+    {
+      "id": "gt_004",
+      "question": "当前镍(nickel)的价格是多少？与一个月前相比变化多少？",
+      "expected_answer_keywords": ["nickel", "镍", "LME", "USD", "价格", "price"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "price",
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_005",
+      "question": "中国稀土集团最近发布了哪些行业新闻？",
+      "expected_answer_keywords": ["中国稀土", "稀土", "rare earth", "集团", "行业"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "policy",
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_006",
+      "question": "铁矿石近期价格趋势如何？",
+      "expected_answer_keywords": ["iron ore", "铁矿石", "价格", "price", "CNY", "USD"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "price",
+      "date_range_days": 14
+    },
+    {
+      "id": "gt_007",
+      "question": "最近有什么重要的矿业并购或投资新闻？",
+      "expected_answer_keywords": ["acquisition", "merger", "investment", "并购", "投资", "mining"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "news",
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_008",
+      "question": "美国地质调查局(USGS)对关键矿产有什么最新评估？",
+      "expected_answer_keywords": ["USGS", "critical minerals", "关键矿产", "评估", "supply chain"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "policy",
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_009",
+      "question": "锂价最近一个月跌了多少？未来走势怎么看？",
+      "expected_answer_keywords": ["lithium", "锂", "价格", "price", "碳酸锂", "SHFE"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "price",
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_010",
+      "question": "近两周有哪些关于铜矿开采的新闻？",
+      "expected_answer_keywords": ["copper", "铜", "mine", "production", "output", "开采"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "news",
+      "date_range_days": 14
+    },
+    {
+      "id": "gt_011",
+      "question": "澳洲DISR对锂矿出口有什么最新规定？",
+      "expected_answer_keywords": ["澳洲", "Australia", "DISR", "锂", "lithium", "export", "出口"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "policy",
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_012",
+      "question": "锌和镍哪个价格最近表现更好？",
+      "expected_answer_keywords": ["zinc", "锌", "nickel", "镍", "price", "价格", "compare", "比较"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "price",
+      "date_range_days": 14
+    },
+    {
+      "id": "gt_013",
+      "question": "全球矿业行业近期面临的主要风险有哪些？",
+      "expected_answer_keywords": ["risk", "风险", "supply", "供应链", "regulation", "监管", "ESG"],
+      "relevant_doc_ids": [],
+      "source_type_filter": null,
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_014",
+      "question": "中国在关键矿产供应链方面有什么新举措？",
+      "expected_answer_keywords": ["中国", "China", "关键矿产", "critical minerals", "供应链", "supply chain", "稀土"],
+      "relevant_doc_ids": [],
+      "source_type_filter": null,
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_015",
+      "question": "Pilbara地区的锂矿开采最近有什么进展？",
+      "expected_answer_keywords": ["Pilbara", "lithium", "锂矿", "Australia", "mining", "production"],
+      "relevant_doc_ids": [],
+      "source_type_filter": null,
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_016",
+      "question": "帮我整理一下今天所有关于铜的新闻和政策信息",
+      "expected_answer_keywords": ["copper", "铜", "price", "policy", "news", "LME"],
+      "relevant_doc_ids": [],
+      "source_type_filter": null,
+      "date_range_days": 7
+    },
+    {
+      "id": "gt_017",
+      "question": "上海期货交易所的锂期货交易量最近有何变化？",
+      "expected_answer_keywords": ["SHFE", "上海期货", "锂", "lithium", "期货", "futures", "volume"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "price",
+      "date_range_days": 14
+    },
+    {
+      "id": "gt_018",
+      "question": "澳洲政府如何看待关键矿产的ESG问题？",
+      "expected_answer_keywords": ["Australia", "澳洲", "ESG", "critical minerals", "关键矿产", "sustainability"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "policy",
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_019",
+      "question": "有哪些最新的矿业技术革新新闻？",
+      "expected_answer_keywords": ["technology", "技术", "innovation", "autonomous", "automation", "AI", "digital"],
+      "relevant_doc_ids": [],
+      "source_type_filter": "news",
+      "date_range_days": 30
+    },
+    {
+      "id": "gt_020",
+      "question": "综合来看，现在是投资锂矿的好时机吗？请结合新闻、政策和价格信息分析。",
+      "expected_answer_keywords": ["lithium", "锂", "investment", "投资", "price", "policy", "supply", "demand"],
+      "relevant_doc_ids": [],
+      "source_type_filter": null,
+      "date_range_days": 30
+    }
+  ]
+}

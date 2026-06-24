@@ -1,0 +1,30 @@
+# Core (requires Python >=3.11)
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.0
+pydantic-settings>=2.0
+
+# RAG & Vector DB
+langchain>=0.2
+langchain-community>=0.2
+chromadb>=0.5
+sentence-transformers>=2.7
+
+# Scraping
+httpx>=0.27
+beautifulsoup4>=4.12
+lxml>=5.0
+feedparser>=6.0
+
+# LLM (Qwen/Tongyi — 默认)
+dashscope>=1.20
+# LLM (DeepSeek/OpenAI — 备选, 需要时取消注释)
+# langchain-openai>=0.1
+# openai>=1.0
+
+# Financial data fallback (optional)
+# yfinance>=0.2
+# akshare>=1.11
+
+# Dev
+pytest>=8.0
